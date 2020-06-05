@@ -17,6 +17,7 @@
     + Step 6 Deploy the model for the web app
     + Step 7 Use the model for the web app
 
+
 * Please see the [README](https://github.com/liangliang-yang/udacity-sagemaker-deployment/blob/master/README.md) in the root directory for instructions on setting up a SageMaker notebook and downloading the project files (as well as the other notebooks).
 
  

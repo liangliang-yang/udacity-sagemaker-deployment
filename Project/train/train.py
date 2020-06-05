@@ -11,6 +11,7 @@ import torch.utils.data
 
 from model import LSTMClassifier
 
+
 def model_fn(model_dir):
     """Load the PyTorch model from the `model_dir` directory."""
     print("Loading model.")
@@ -41,6 +42,7 @@ def model_fn(model_dir):
 
     print("Done loading model.")
     return model
+
 
 def _get_train_data_loader(batch_size, training_dir):
     print("Get train data loader.")

@@ -18,6 +18,7 @@ class LSTMClassifier(nn.Module):
         
         self.word_dict = None
 
+        
     def forward(self, x):
         """
         Perform a forward pass of our model on some input.

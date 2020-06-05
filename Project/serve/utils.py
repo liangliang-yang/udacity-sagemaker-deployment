@@ -10,6 +10,7 @@ import pickle
 import os
 import glob
 
+
 def review_to_words(review):
     nltk.download("stopwords", quiet=True)
     stemmer = PorterStemmer()
@@ -21,6 +22,7 @@ def review_to_words(review):
     words = [PorterStemmer().stem(w) for w in words] # stem
     
     return words
+
 
 def convert_and_pad(word_dict, sentence, pad=500):
     NOWORD = 0 # We will use 0 to represent the 'no word' category
